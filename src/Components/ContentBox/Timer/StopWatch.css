@@ -1,0 +1,71 @@
+.StopwatchContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1;
+  height: 100%;
+  width: 100%;
+  color: rgb(116, 116, 116);
+}
+.ClockTime {
+  box-sizing: border-box;
+  position: relative;
+  top: 34px;
+  display: inline-block;
+  flex-basis: 50%;
+  height: 266px;
+  font-size: 15px;
+  font-weight: 550;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.timeColoring {
+  color: red;
+}
+.ClockTime > p {
+  position: relative;
+}
+@media (max-width: 900px) {
+  .Stopwatch {
+    margin-bottom: 40px;
+  }
+}
+.Stopwatch {
+  position: relative;
+  top: 34px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-top: 10px;
+  flex-basis: 50%;
+}
+.Stopwatch-header {
+  font-size: medium;
+  font-weight: bold;
+}
+.Stopwatch > p {
+  font-size: small;
+  font-weight: 550;
+}
+.Stopwatch button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(96, 230, 230),
+    rgb(59, 209, 139)
+  );
+}
+.Stopwatch button {
+  background-color: #202b33;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  margin: 0 5px;
+  cursor: pointer;
+  padding: 10px 26px;
+  font-size: 17px;
+}
+.Stopwatch-display {
+  padding: 10px 0;
+  padding-bottom: 5px;
+  font-size: 40px;
+  margin-bottom: 0;
+  color: rgb(34, 185, 34);
+}

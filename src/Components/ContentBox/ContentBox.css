@@ -1,0 +1,50 @@
+.OverviewContentBox {
+  position: relative;
+  display: inline-flex;
+  color: black;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+  width: 100%;
+}
+.ContentBox {
+  position: absolute;
+  top: 0;
+  left: 20vw;
+  width: 80%;
+  background-color: rgb(252, 252, 252);
+}
+@media (max-width: 500px) {
+  .ContentBox {
+    left: 10px;
+  }
+}
+@media (max-width: 550px) {
+  .big-container {
+    display: none;
+  }
+}
+@media (min-width: 550px) {
+  .small-container {
+    display: none;
+  }
+}
+
+.responsive-iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 50px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+  position: absolute;
+  margin-left: 8%;
+  top: 30px;
+  left: 10px;
+  width: 80%;
+  height: 100%;
+}

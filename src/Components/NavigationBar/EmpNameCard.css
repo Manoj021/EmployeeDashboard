@@ -1,0 +1,43 @@
+.NameCardContainer {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px;
+  height: 200px;
+  width: 80%;
+  position: relative;
+}
+.NameCardImage {
+  margin-top: 47%;
+  margin-left: 20%;
+  grid-row: 1/3;
+  grid-column: 1;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.NameCarditem1 {
+  margin-top: 55%;
+  margin-bottom: 5%;
+  margin-left: 20px;
+  height: 30%;
+  font-weight: bold;
+  color: azure;
+  grid-row: 1;
+  grid-column: 2;
+}
+.NameCarditem2 {
+  height: 50%;
+  margin-left: 20px;
+  margin-top: 0em;
+  font-size: 0.7em;
+  margin-bottom: 35%;
+  grid-row: 2;
+  grid-column: 2;
+}

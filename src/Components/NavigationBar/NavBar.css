@@ -1,0 +1,63 @@
+.NavBar {
+  display: flex;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(29, 44, 44), rgb(26, 27, 27));
+  color: #e7e7e7;
+  box-shadow: 10px 10px 8px #888888;
+  font-family: "Open Sans", sans-serif;
+  flex-direction: column;
+}
+.NavBar::-webkit-scrollbar {
+  width: 0.4em;
+}
+.gap {
+  position: relative;
+  background-color: darkgray;
+  height: 1px;
+  width: 80%;
+  border-radius: 25px;
+}
+ul {
+  position: relative;
+  font-size: medium;
+  list-style-type: none;
+  margin-right: 10%;
+  padding-left: 0;
+  width: 100%;
+  flex: 1;
+}
+
+.NavBar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.NavBar::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.NavButton {
+  align-items: flex-start;
+  display: block;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: medium;
+}
+.NavButton:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    rgb(96, 230, 230),
+    rgb(59, 209, 139)
+  );
+  color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .NavBar {
+    width: 0;
+  }
+} ;

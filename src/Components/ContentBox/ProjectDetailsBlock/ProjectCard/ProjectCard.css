@@ -1,0 +1,52 @@
+.ProjectCard {
+  margin: 20px;
+  flex-basis: 250px;
+  height: 100px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 3px;
+  border: 3px rgb(85, 84, 84);
+  box-shadow: 5px 5px 20px grey;
+  background-color: white;
+  flex-grow: 1;
+}
+.Protitle {
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 0;
+  font-size: small;
+  font-weight: 550;
+  color: rgb(138, 137, 137);
+}
+.ProStatus {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  border-radius: inherit;
+  padding: 10px;
+  flex-grow: 1;
+}
+.ColoredNumber {
+  padding: 5px;
+  position: relative;
+  display: block;
+  font-size: x-large;
+}
+.StatusImage {
+  position: relative;
+  box-sizing: border-box;
+  flex-basis: 100px;
+  height: 100%;
+  border-radius: inherit;
+  padding: 10px;
+  flex-grow: 0; /* do not grow   - initial value: 0 */
+  flex-shrink: 0;
+}
+
+.StatusImage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}

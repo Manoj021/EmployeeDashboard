@@ -1,0 +1,55 @@
+.ContentCardHalf {
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  margin: 20px;
+  height: 300px;
+  /* max-width: fit-content; */
+  min-width: 500px;
+  flex-basis: 42%;
+  border: 3px rgb(85, 84, 84);
+  box-shadow: 5px 5px 20px grey;
+  background-color: rgb(241, 241, 247);
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.InnerContainer {
+  width: 100%;
+  height: 100%;
+}
+.ContentCardFull {
+  position: relative;
+  margin: 20px;
+  height: 300px;
+  flex-basis: 92%;
+  border: 3px rgb(85, 84, 84);
+  box-shadow: 5px 5px 20px grey;
+  background-color: rgb(241, 241, 247);
+  flex-grow: 1;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.ContentTitle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 34px;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  background-color: rgb(167, 155, 155);
+  color: black;
+  display: inline-block;
+  width: 100%;
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  font-weight: 550;
+  font-size: medium;
+}
